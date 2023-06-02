@@ -1,0 +1,61 @@
+.parteGris{
+background-color: rgba(193, 187, 187, 0.603);
+height: 550px;
+}
+.parteBlanca{
+background-color: rgb(255, 255, 255);
+height: 550px;
+}
+.contenedorCard{
+    box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);
+}
+.letraGris{
+    color: grey;
+}
+.imgsPoleras{
+    width: 100px;
+    height: 100px;
+}
+.cantidad{
+    display: flex; 
+    align-items: center;
+    margin-top: 30px;
+}
+.btnCantidad{
+    background-color: white;
+    border: 0;
+    color: rgb(24, 24, 231);
+    font-size: 25px;
+}
+.inputCantidad{
+    width: 20px;
+    height: 25px;
+    border-color: rgb(200, 195, 195) !important;
+    color: rgb(24, 24, 231);
+    font-size: 20px;
+}
+.valorUnitario{
+    margin-top: 35px;
+    font-size: 18px;
+    font-weight: 600;
+}
+h4{
+ color: #3f3e3e;
+}
+.parte1Detalle{
+    font-size: 18px;
+}
+.btn-warning-2{
+    color: white !important;
+}
+.btn-azul{
+    background-color: blue !important;
+    color: white !important;
+}
+.btn-gris{
+    background-color: rgba(193, 187, 187, 0.603);
+    border: 0.5px solid red !important;
+    color: green !important;
+}
