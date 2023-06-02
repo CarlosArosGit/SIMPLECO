@@ -136,6 +136,12 @@ $(document).ready(function () {
       $('#btnRealizarCompra').addClass('btn-warning');
       $('#btnRealizarCompra').addClass('btn-warning-2');
       $('#btnRealizarCompra').removeClass('btn-azul');
+      $("#cantidadMas1").prop("disabled", true);
+      $("#cantidadMas2").prop("disabled", true);
+      $("#cantidadMas3").prop("disabled", true);
+      $("#cantidadMenos1").prop("disabled", true);
+      $("#cantidadMenos2").prop("disabled", true);
+      $("#cantidadMenos3").prop("disabled", true);
     } else {
       alert('¡Elige tu envio!')
     }
